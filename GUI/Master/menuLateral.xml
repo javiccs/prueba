@@ -116,7 +116,7 @@
 
   <!--OPCIONES DE MODULO 12-->
   
-  <opcion nombre="" link="~/GUI/Modulo12/">
+  <opcion nombre="Crear Competencia" link="~/GUI/Modulo12/">
     <modulo id="12"></modulo>
   </opcion>
   
