@@ -12,6 +12,7 @@ namespace templateApp.GUI.Modulo_12
         protected void Page_Load(object sender, EventArgs e)
         {
             ((SKD)Page.Master).IdModulo = "12";
+
         }
     }
 }
