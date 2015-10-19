@@ -7,10 +7,6 @@
 *.sln.docstates
 *.sln
 
-*.pdb
-*.dll
-
-
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -47,6 +43,7 @@ dlldata.c
 *.obj
 *.pch
 *.pdb
+*.dll
 *.pgc
 *.pgd
 *.rsp
