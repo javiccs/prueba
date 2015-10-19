@@ -156,6 +156,5 @@ $RECYCLE.BIN/
 .DS_Store
 *.cache
 *.cache
-*.csproj
-templateApp.csproj.user
+
 *.dll
