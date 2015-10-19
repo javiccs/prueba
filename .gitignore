@@ -5,9 +5,6 @@
 *.suo
 *.user
 *.sln.docstates
-*.suo
-*.pdb
-*.dll
 *.sln
 
 
@@ -187,4 +184,5 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+*.pdb
 *.dll
