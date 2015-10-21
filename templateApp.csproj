@@ -156,6 +156,8 @@
     <Content Include="GUI\Modulo13\M13_Prueba.aspx" />
     <Content Include="GUI\Modulo14\M14_Prueba.aspx" />
     <Content Include="GUI\Modulo14\M14_RegistroPlanilla.aspx" />
+    <Content Include="GUI\Modulo14\ModificarPlanilla.aspx" />
+    <Content Include="GUI\Modulo14\ModificarPlanillaSolicitada.aspx" />
     <Content Include="GUI\Modulo15\M15_Prueba.aspx" />
     <Content Include="GUI\Modulo16\M16_Prueba.aspx" />
     <Content Include="GUI\Modulo1\M1_Prueba.aspx" />
@@ -1074,6 +1076,20 @@
     </Compile>
     <Compile Include="GUI\Modulo14\M14_RegistroPlanilla.aspx.designer.cs">
       <DependentUpon>M14_RegistroPlanilla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Modulo14\ModificarPlanilla.aspx.cs">
+      <DependentUpon>ModificarPlanilla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Modulo14\ModificarPlanilla.aspx.designer.cs">
+      <DependentUpon>ModificarPlanilla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Modulo14\ModificarPlanillaSolicitada.aspx.cs">
+      <DependentUpon>ModificarPlanillaSolicitada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Modulo14\ModificarPlanillaSolicitada.aspx.designer.cs">
+      <DependentUpon>ModificarPlanillaSolicitada.aspx</DependentUpon>
     </Compile>
     <Compile Include="GUI\Modulo15\M15_Prueba.aspx.cs">
       <DependentUpon>M15_Prueba.aspx</DependentUpon>

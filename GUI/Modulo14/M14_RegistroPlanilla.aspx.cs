@@ -33,6 +33,13 @@ namespace templateApp.GUI.Modulo14
 
         protected void btnenviar_Click(object sender, EventArgs e)
         {
+            if (comboTipoPlanilla.SelectedValue == "-1")
+            {
+                this.alertlocal.Attributes["class"] = "alert alert-success alert-sucess";
+                this.alertlocal.Attributes["role"] = "alert";
+                this.alertlocal.InnerHtml = "<div><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>Se Registro la Planilla Correctamente.</div>";
+                this.alertlocal.Visible = true;
+            }
 
         }
 

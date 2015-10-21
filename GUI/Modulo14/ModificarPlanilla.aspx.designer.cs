@@ -10,7 +10,7 @@
 namespace templateApp.GUI.Modulo14 {
     
     
-    public partial class M14_RegistroPlanilla {
+    public partial class ModificarPlanilla {
         
         /// <summary>
         /// Control alertlocal.
@@ -121,12 +121,12 @@ namespace templateApp.GUI.Modulo14 {
         protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox checkbox6;
         
         /// <summary>
-        /// Control btnenviar.
+        /// Control btneditar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnenviar;
+        protected global::System.Web.UI.WebControls.Button btneditar;
     }
 }
