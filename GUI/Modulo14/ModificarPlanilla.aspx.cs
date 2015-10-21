@@ -21,6 +21,7 @@ namespace templateApp.GUI.Modulo14
             options.Add("-1", "Selecciona una opcion");
             options.Add("1", "Retiro");
             options.Add("2", "Ascenso");
+            options.Add("3", "Otro");
 
             comboTipoPlanilla.DataSource = options;
             comboTipoPlanilla.DataTextField = "value";

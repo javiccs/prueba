@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#"  MasterPageFile="~/GUI/Master/SKD.Master" AutoEventWireup="true" CodeBehind="ModificarPlanilla.aspx.cs" Inherits="templateApp.GUI.Modulo14.ModificarPlanilla" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link rel="stylesheet" href="css/M14_Style.css">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="titulo" runat="server">Gestión de Planillas
 </asp:Content>
@@ -19,7 +20,7 @@
                 </div>
                 <div class="col-xs-4">
                     <div class="dropdown" runat="server" id="divComboTipoPlanilla">
-                         <asp:DropDownList ID="comboTipoPlanilla"  class="btn btn-default dropdown-toggle" runat="server"  AutoPostBack="true">
+                         <asp:DropDownList ID="comboTipoPlanilla" name="dropdowlist" class="btn btn-default dropdown-toggle" runat="server"  AutoPostBack="true">
                          </asp:DropDownList>
                     </div> 
                 </div> 
@@ -46,13 +47,9 @@
               </div>
       </div>                   
      <div class="form-group">
-             <div class="col-xs-3">
-                      <label>Datones Necesarios Para La Planilla:</label>
-             </div>
-               
-                <div class="row" >
-                  
-                    <div class="col-xs-2">
+            <label>Datones Necesarios Para La Planilla:</label>
+                 <div class="row cuadro" >
+                    <div class="col-xs-3">
                       <div class="checkbox">
                           <label>
                             <input id="checkbox0" type="checkbox" value="Atleta" runat="server" /> 
@@ -60,7 +57,7 @@
                           </label>     
                       </div>
                   </div>
-                    <div class="col-xs-2">
+                    <div class="col-xs-3">
                       <div class="checkbox">
                           <label>
                             <input id="checkbox1" type="checkbox" value="competencia" runat="server" /> 
@@ -68,7 +65,7 @@
                           </label>     
                       </div>
                   </div> 
-                     <div class="col-xs-2">
+                     <div class="col-xs-3">
                       <div class="checkbox">
                           <label>
                             <input id="checkbox2" type="checkbox" value="asistencia" runat="server" /> 
@@ -76,7 +73,7 @@
                           </label>     
                       </div>
                   </div>   
-                     <div class="col-xs-2">
+                     <div class="col-xs-3">
                       <div class="checkbox">
                           <label>
                             <input id="checkbox3" type="checkbox" value="dojo" runat="server" /> 
@@ -86,7 +83,7 @@
                   </div>      
               
          <div class="row" > 
-                <div class="col-xs-2">
+                <div class="col-xs-3">
                       <div class="checkbox">
                           <label>
                             <input id="checkbox4" type="checkbox" value="instructor" runat="server" /> 
@@ -94,7 +91,7 @@
                           </label>     
                       </div>
                   </div> 
-                <div class="col-xs-2">
+                <div class="col-xs-3">
                       <div class="checkbox">
                           <label>
                             <input id="checkbox5" type="checkbox" value="representante" runat="server" /> 
@@ -102,7 +99,7 @@
                           </label>     
                       </div>
                   </div>
-                 <div class="col-xs-2">
+                 <div class="col-xs-3">
                   <div class="checkbox">
                           <label>
                             <input id="checkbox6" type="checkbox" value="evento" runat="server" /> 
@@ -115,7 +112,7 @@
            </div>
          </div>
        <div class="form-group">
-          <div class="col-sm-5 col-md-5 col-lg-5">
+          <div class="col-sm-5 col-md-5 col-lg-5 center-block">
                     <asp:Button id="btneditar" class="btn btn-primary"  type="submit" runat="server" Text = "Editar" OnClick="btneditar_Click" ></asp:Button>
                     <a class="btn btn-default" href="#">Cancelar</a>
                 </div>

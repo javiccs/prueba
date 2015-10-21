@@ -1,0 +1,15 @@
+﻿.cuadro{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.center-block{
+  display:block;
+  line-height: 70px;
+  width: 100%;
+  text-align:center;
+  margin-right: 10px;
+
+
+}

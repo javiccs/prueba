@@ -156,6 +156,7 @@
     <Content Include="GUI\Modulo13\M13_Prueba.aspx" />
     <Content Include="GUI\Modulo14\M14_Prueba.aspx" />
     <Content Include="GUI\Modulo14\M14_RegistroPlanilla.aspx" />
+    <Content Include="GUI\Modulo14\css\M14_Style.css" />
     <Content Include="GUI\Modulo14\ModificarPlanilla.aspx" />
     <Content Include="GUI\Modulo14\ModificarPlanillaSolicitada.aspx" />
     <Content Include="GUI\Modulo15\M15_Prueba.aspx" />

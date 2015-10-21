@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/GUI/Master/SKD.Master" AutoEventWireup="true" CodeBehind="ModificarPlanillaSolicitada.aspx.cs" Inherits="templateApp.GUI.Modulo14.ModificarPlanillaSolicitada" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link rel="stylesheet" href="css/M14_Style.css">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="titulo" runat="server">Gestión de Planillas
 </asp:Content>
@@ -41,7 +42,7 @@
       </div>
 
      <div class="form-group">
-          <div class="col-sm-5 col-md-5 col-lg-5">
+          <div class="col-sm-5 col-md-5 col-lg-5 center-block">
                     <asp:Button id="btnaceptar1" class="btn btn-primary"  type="submit" runat="server" Text = "Aceptar"  ></asp:Button>
                     <a class="btn btn-default" href="#">Cancelar</a>
                 </div>

@@ -11,8 +11,14 @@ namespace templateApp.GUI.Modulo14
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           
             if (!IsPostBack)
+            { 
+               
                 llenarComboTipoPlanilla();
+            }
+                
+            
         }
 
         protected void llenarComboTipoPlanilla()
@@ -22,6 +28,7 @@ namespace templateApp.GUI.Modulo14
         options.Add("-1", "Selecciona una opcion");
         options.Add("1", "Retiro");
         options.Add("2", "Ascenso");
+        options.Add("3", "Otro");
 
         comboTipoPlanilla.DataSource = options;
         comboTipoPlanilla.DataTextField = "value";
@@ -41,6 +48,19 @@ namespace templateApp.GUI.Modulo14
                 this.alertlocal.Visible = true;
             }
 
+        }
+
+        protected void comboTipoPlanilla_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboTipoPlanilla.SelectedValue == "3")
+            {
+
+            }
+            else
+            { 
+            
+            }
+            
         }
 
 }
