@@ -13,8 +13,8 @@ namespace templateApp.GUI.Modulo14
         {
            
             if (!IsPostBack)
-            { 
-               
+            {
+                id_otro.Visible = false;
                 llenarComboTipoPlanilla();
             }
                 
@@ -54,11 +54,11 @@ namespace templateApp.GUI.Modulo14
         {
             if (comboTipoPlanilla.SelectedValue == "3")
             {
-
+                id_otro.Visible = true;
             }
             else
-            { 
-            
+            {
+                id_otro.Visible = false;
             }
             
         }

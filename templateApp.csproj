@@ -154,6 +154,7 @@
     <Content Include="GUI\Modulo12\M12_Prueba.aspx" />
     <Content Include="GUI\Modulo12\M12_PruebaRob.aspx" />
     <Content Include="GUI\Modulo13\M13_Prueba.aspx" />
+    <Content Include="GUI\Modulo14\calendario.aspx" />
     <Content Include="GUI\Modulo14\M14_Prueba.aspx" />
     <Content Include="GUI\Modulo14\M14_RegistroPlanilla.aspx" />
     <Content Include="GUI\Modulo14\css\M14_Style.css" />
@@ -1063,6 +1064,13 @@
     </Compile>
     <Compile Include="GUI\Modulo13\M13_Prueba.aspx.designer.cs">
       <DependentUpon>M13_Prueba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Modulo14\calendario.aspx.cs">
+      <DependentUpon>calendario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Modulo14\calendario.aspx.designer.cs">
+      <DependentUpon>calendario.aspx</DependentUpon>
     </Compile>
     <Compile Include="GUI\Modulo14\M14_Prueba.aspx.cs">
       <DependentUpon>M14_Prueba.aspx</DependentUpon>
