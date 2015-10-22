@@ -153,8 +153,6 @@
     <Content Include="GUI\Modulo11\M11_Prueba.aspx" />
     <Content Include="GUI\Modulo12\M12_Prueba.aspx" />
     <Content Include="GUI\Modulo13\M13_Prueba.aspx" />
-    <Content Include="GUI\Modulo14\M14_ConsultarPlanillasDojo.aspx" />
-    <Content Include="GUI\Modulo14\M14_ConsultarPlanillasSolicitadas.aspx" />
     <Content Include="GUI\Modulo14\M14_Prueba.aspx" />
     <Content Include="GUI\Modulo15\M15_Prueba.aspx" />
     <Content Include="GUI\Modulo16\M16_Prueba.aspx" />
@@ -1053,20 +1051,6 @@
     </Compile>
     <Compile Include="GUI\Modulo13\M13_Prueba.aspx.designer.cs">
       <DependentUpon>M13_Prueba.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Modulo14\M14_ConsultarPlanillasDojo.aspx.cs">
-      <DependentUpon>M14_ConsultarPlanillasDojo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GUI\Modulo14\M14_ConsultarPlanillasDojo.aspx.designer.cs">
-      <DependentUpon>M14_ConsultarPlanillasDojo.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Modulo14\M14_ConsultarPlanillasSolicitadas.aspx.cs">
-      <DependentUpon>M14_ConsultarPlanillasSolicitadas.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GUI\Modulo14\M14_ConsultarPlanillasSolicitadas.aspx.designer.cs">
-      <DependentUpon>M14_ConsultarPlanillasSolicitadas.aspx</DependentUpon>
     </Compile>
     <Compile Include="GUI\Modulo14\M14_Prueba.aspx.cs">
       <DependentUpon>M14_Prueba.aspx</DependentUpon>
