@@ -155,6 +155,7 @@
     <Content Include="GUI\Modulo12\M12_PruebaRob.aspx" />
     <Content Include="GUI\Modulo13\M13_Prueba.aspx" />
     <Content Include="GUI\Modulo14\calendario.aspx" />
+    <Content Include="GUI\Modulo14\img\calendario.jpg" />
     <Content Include="GUI\Modulo14\M14_Prueba.aspx" />
     <Content Include="GUI\Modulo14\M14_RegistroPlanilla.aspx" />
     <Content Include="GUI\Modulo14\css\M14_Style.css" />

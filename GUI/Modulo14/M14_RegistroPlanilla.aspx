@@ -12,8 +12,8 @@
            
  <div class="col-sm-12 col-md-12 col-lg-12" runat ="server"> 
      <div class="form-group">
-         <div id="alertlocal" runat="server" >  <!-- Alertas-->
-              </div>  
+         <div id="alertlocal" runat="server" >  <!-- Alertas--></div>
+                 
             <div class="row">
                 <div class="col-xs-3" >
                     <label>Seleccione el Tipo de Planilla:</label> 
@@ -109,7 +109,7 @@
            </div>
          </div>
        <div class="form-group">
-          <div class="col-sm-5 col-md-5 col-lg-5 center-block">
+          <div class="col-sm-5 col-md-5 col-lg-5 ">
                     <asp:Button id="btnenviar" class="btn btn-primary"  type="submit" runat="server" Text = "Aceptar" OnClick="btnenviar_Click" >
                     </asp:Button>
                     <a class="btn btn-default" href="#">Cancelar</a>

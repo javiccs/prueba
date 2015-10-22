@@ -42,12 +42,77 @@ namespace templateApp.GUI.Modulo14
         {
             if (comboTipoPlanilla.SelectedValue == "-1")
             {
-                this.alertlocal.Attributes["class"] = "alert alert-success alert-sucess";
+                this.alertlocal.Attributes["class"] = "alert alert-danger";
                 this.alertlocal.Attributes["role"] = "alert";
-                this.alertlocal.InnerHtml = "<div><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>Se Registro la Planilla Correctamente.</div>";
+                this.alertlocal.InnerHtml = "<div><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>No has seleccionado el tipo de planilla.</div>";
                 this.alertlocal.Visible = true;
             }
+            if (comboTipoPlanilla.SelectedValue == "1" || comboTipoPlanilla.SelectedValue == "2")
+             {
+                if (Text1.Value == "")
+                {
+                    this.alertlocal.Attributes["class"] = "alert alert-danger";
+                    this.alertlocal.Attributes["role"] = "alert";
+                    this.alertlocal.InnerHtml = "<div><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>No has introduccido el nombre de planilla.</div>";
+                    this.alertlocal.Visible = true;
+                }
+                
+             }
+            if (comboTipoPlanilla.SelectedValue == "3")
+             {
+                 if (id_nombretipo.Value == "")
+                {
+                    this.alertlocal.Attributes["class"] = "alert alert-danger";
+                    this.alertlocal.Attributes["role"] = "alert";
+                    this.alertlocal.InnerHtml = "<div><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>No has introduccido el nombre de tipo planilla.</div>";
+                    this.alertlocal.Visible = true;
+                }
+            }
+            if (comboTipoPlanilla.SelectedValue == "3" && id_nombretipo.Value !="")
+            {
+                if (Text1.Value == "")
+                {
+                    this.alertlocal.Attributes["class"] = "alert alert-danger";
+                    this.alertlocal.Attributes["role"] = "alert";
+                    this.alertlocal.InnerHtml = "<div><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>No has introduccido el nombre de tipo planilla.</div>";
+                    this.alertlocal.Visible = true;
+                }
+            }
+           if (comboTipoPlanilla.SelectedValue == "1" || comboTipoPlanilla.SelectedValue == "2")
+           {
+               if (Text1.Value != "")
+               {
+                   if (checkbox0.Value == "" && checkbox1.Value == "" && checkbox2.Value == "" && checkbox3.Value == "" && checkbox4.Value == "" && checkbox5.Value == "" && checkbox6.Value == "")
+                   {
+                   this.alertlocal.Attributes["class"] = "alert alert-danger";
+                   this.alertlocal.Attributes["role"] = "alert";
+                   this.alertlocal.InnerHtml = "<div><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>no has seleccionado datos para la planilla.</div>";
+                   this.alertlocal.Visible = true;
+                   }
+               }
+           }
+           if (comboTipoPlanilla.SelectedValue == "1" || comboTipoPlanilla.SelectedValue == "2")
+           {
+               if (Text1.Value != "")
+               {
+                 this.alertlocal.Attributes["class"] = "alert alert-success";
+                 this.alertlocal.Attributes["role"] = "alert";
+                 this.alertlocal.InnerHtml = "<div><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>Se ha registrado la planilla correctamente.</div>";
+                 this.alertlocal.Visible = true;
+                   
+               }
+           }
+           if (comboTipoPlanilla.SelectedValue == "3" )
+           {
+               if (id_nombretipo.Value !="" && Text1.Value != "")
+               {
+                   this.alertlocal.Attributes["class"] = "alert alert-success";
+                   this.alertlocal.Attributes["role"] = "alert";
+                   this.alertlocal.InnerHtml = "<div><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>Se ha registrado la planilla correctamente.</div>";
+                   this.alertlocal.Visible = true;
 
+               }
+           }
         }
 
         protected void comboTipoPlanilla_SelectedIndexChanged(object sender, EventArgs e)
